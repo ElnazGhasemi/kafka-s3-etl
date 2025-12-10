@@ -1,0 +1,205 @@
+version: '3.8'
+
+services:
+  # Zookeeper for Kafka
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.4.0
+    hostname: zookeeper
+    container_name: zookeeper
+    env_file:
+      - .env
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
+    ports:
+      - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: ${ZOOKEEPER_CLIENT_PORT}
+      ZOOKEEPER_TICK_TIME: ${ZOOKEEPER_TICK_TIME}
+    volumes:
+      - zookeeper_data:/var/lib/zookeeper/data
+      - zookeeper_logs:/var/lib/zookeeper/log
+
+  # Kafka Broker
+  kafka:
+    image: confluentinc/cp-kafka:7.4.0
+    hostname: kafka
+    container_name: kafka
+    env_file:
+      - .env
+    depends_on:
+      - zookeeper
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 512M
+    ports:
+      - "29092:29092"
+      - "9092:9092"
+      - "9101:9101"
+    environment:
+      KAFKA_BROKER_ID: ${KAFKA_BROKER_ID}
+      KAFKA_ZOOKEEPER_CONNECT: ${KAFKA_ZOOKEEPER_CONNECT}
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: ${KAFKA_LISTENER_SECURITY_PROTOCOL_MAP}
+      KAFKA_ADVERTISED_LISTENERS: ${KAFKA_ADVERTISED_LISTENERS}
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: ${KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR}
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: ${KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS}
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: ${KAFKA_AUTO_CREATE_TOPICS_ENABLE}
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    healthcheck:
+      test: kafka-broker-api-versions --bootstrap-server kafka:29092
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Kafka UI for management
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    container_name: kafka-ui
+    env_file:
+      - .env
+    depends_on:
+      - kafka
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
+    ports:
+      - "8081:9090"
+    environment:
+      KAFKA_CLUSTERS_0_NAME: ${KAFKA_UI_CLUSTERS_NAME}
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: ${KAFKA_UI_CLUSTERS_BOOTSTRAPSERVERS}
+      KAFKA_CLUSTERS_0_ZOOKEEPER: ${KAFKA_UI_CLUSTERS_ZOOKEEPER}
+      SERVER_PORT: ${KAFKA_UI_SERVER_PORT}
+
+  # MinIO for S3-compatible storage
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    env_file:
+      - .env
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+  # Create MinIO buckets
+  minio-setup:
+    image: minio/mc:latest
+    container_name: minio-setup
+    env_file:
+      - .env
+    depends_on:
+      - minio
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    entrypoint: |
+      /bin/sh -c "
+      until mc alias set minio http://minio:9000 $$MINIO_ROOT_USER $$MINIO_ROOT_PASSWORD; do
+        echo 'Waiting for MinIO to be ready...'
+        sleep 1
+      done
+      mc mb minio/input-bucket --ignore-existing
+      mc mb minio/output-bucket --ignore-existing
+      mc cp /data/sample_products.json minio/input-bucket/ || true
+      echo 'MinIO setup completed'
+      "
+    volumes:
+      - ./data:/data
+
+  # Airflow with all dependencies
+  airflow:
+    image: apache/airflow:slim-3.1.4rc1-python3.13
+    container_name: airflow
+    env_file:
+      - .env
+    depends_on:
+      - kafka
+      - minio
+    environment:
+      AIRFLOW__CORE__EXECUTOR: ${AIRFLOW_EXECUTOR}
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: ${AIRFLOW_SQL_ALCHEMY_CONN}
+      AIRFLOW__CORE__LOAD_EXAMPLES: ${AIRFLOW_LOAD_EXAMPLES}
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: ${AIRFLOW_DAGS_PAUSED_AT_CREATION}
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: ${AIRFLOW_WEBSERVER_EXPOSE_CONFIG}
+      AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW_FERNET_KEY}
+      # Kafka configurations
+      AIRFLOW__KAFKA__BOOTSTRAP_SERVERS: ${KAFKA_BOOTSTRAP_SERVERS}
+      # MinIO/S3 configurations
+      AIRFLOW__AWS__AWS_ACCESS_KEY_ID: ${MINIO_ACCESS_KEY}
+      AIRFLOW__AWS__AWS_SECRET_ACCESS_KEY: ${MINIO_SECRET_KEY}
+      AIRFLOW__AWS__AWS_S3_ENDPOINT_URL: ${AIRFLOW_S3_ENDPOINT_URL}
+      AIRFLOW__AWS__AWS_DEFAULT_REGION: ${MINIO_REGION}
+      # MinIO credentials for the application
+      ENV: ${ENV}
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY}
+      MINIO_REGION: ${MINIO_REGION}
+      # AWS credentials (boto3 will use these)
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+    ports:
+      - "8085:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./requirements.txt:/opt/airflow/requirements.txt:ro
+      - ./data:/opt/airflow/data
+      - ./src:/opt/airflow/src
+      - airflow-db:/opt/airflow
+      - airflow-logs:/opt/airflow/logs
+    entrypoint: |
+      bash -c "
+        apt-get update && apt-get install -y build-essential cmake
+        pip install --upgrade pip
+        pip install --no-cache-dir -r /opt/airflow/requirements.txt || (
+          echo 'Installing dependencies individually...'
+          pip install --no-cache-dir boto3 pandas lxml xmltodict dicttoxml requests python-dotenv kafka-python pytest pytest-mock moto setuptools confluent-kafka apache-airflow-providers-amazon apache-airflow-providers-http
+          pip install --no-cache-dir --only-binary=all pyarrow || echo 'pyarrow installation failed, continuing without it'
+        )
+        airflow db migrate
+        airflow users create --username airflow --password airflow --firstname Admin --lastname User --role Admin --email admin@example.com || true
+        airflow standalone
+      "
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 60s
+      timeout: 30s
+      retries: 5
+      start_period: 300s
+
+volumes:
+  zookeeper_data:
+  zookeeper_logs:
+  kafka_data:
+  minio_data:
+  airflow-db:
+  airflow-logs:

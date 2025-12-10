@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <ean>5713447649590</ean>
+    <styleNumber>16050217</styleNumber>
+    <styleOption>16050217_Black</styleOption>
+    <size>M</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>BD</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>39.99</price>
+        <validInRegion>Austria</validInRegion>
+        <validFrom>1899-12-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>US Dollar</priceCurrency>
+        <price>55.0</price>
+        <validInRegion>USA</validInRegion>
+        <validFrom>1899-12-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>14.28</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>1899-12-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-02-12T08:47:36.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2018-09-13T20:34:00.000Z</createdOn>
+      <lastUpdated>2025-10-03T15:22:07.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Black</color>
+    <brandName>Metro Mode</brandName>
+    <brandcode>8</brandcode>
+    <subbrandName>Metro Mode Women</subbrandName>
+    <productCategory>Knit</productCategory>
+    <productSubcategory>Pullover</productSubcategory>
+    <gender>Female</gender>
+    <ediSeason>Summer</ediSeason>
+    <ediStyleName>SLFWILLE SS KNIT O-NECK B</ediStyleName>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>75% Viscose, 25% Nylon</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447650123</ean>
+    <styleNumber>16050218</styleNumber>
+    <styleOption>16050218_Navy</styleOption>
+    <size>L</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>CN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>49.99</price>
+        <validInRegion>Germany</validInRegion>
+        <validFrom>2025-01-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Pound Sterling</priceCurrency>
+        <price>45.0</price>
+        <validInRegion>Great Britain</validInRegion>
+        <validFrom>2025-01-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>18.50</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-01-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-15T10:30:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-11-20T14:22:00.000Z</createdOn>
+      <lastUpdated>2025-10-28T09:15:30.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Navy</color>
+    <brandName>Fusion Wear</brandName>
+    <brandcode>12</brandcode>
+    <productCategory>Shirts</productCategory>
+    <productSubcategory>Casual Shirts</productSubcategory>
+    <gender>Male</gender>
+    <ediSeason>Spring</ediSeason>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Cotton</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+</products>

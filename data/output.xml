@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <ean>5713447649590</ean>
+    <styleNumber>16050217</styleNumber>
+    <styleOption>16050217_Black</styleOption>
+    <size>M</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>BD</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>39.99</price>
+        <validInRegion>Austria</validInRegion>
+        <validFrom>1899-12-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>US Dollar</priceCurrency>
+        <price>55.0</price>
+        <validInRegion>USA</validInRegion>
+        <validFrom>1899-12-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>14.28</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>1899-12-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-02-12T08:47:36.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2018-09-13T20:34:00.000Z</createdOn>
+      <lastUpdated>2025-10-03T15:22:07.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Black</color>
+    <brandName>Metro Mode</brandName>
+    <brandcode>8</brandcode>
+    <subbrandName>Metro Mode Women</subbrandName>
+    <productCategory>Knit</productCategory>
+    <productSubcategory>Pullover</productSubcategory>
+    <gender>Female</gender>
+    <ediSeason>Summer</ediSeason>
+    <ediStyleName>SLFWILLE SS KNIT O-NECK B</ediStyleName>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>75% Viscose, 25% Nylon</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447650123</ean>
+    <styleNumber>16050218</styleNumber>
+    <styleOption>16050218_Navy</styleOption>
+    <size>L</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>CN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>49.99</price>
+        <validInRegion>Germany</validInRegion>
+        <validFrom>2025-01-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Pound Sterling</priceCurrency>
+        <price>45.0</price>
+        <validInRegion>Great Britain</validInRegion>
+        <validFrom>2025-01-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>18.5</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-01-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-15T10:30:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-11-20T14:22:00.000Z</createdOn>
+      <lastUpdated>2025-10-28T09:15:30.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Navy</color>
+    <brandName>Fusion Wear</brandName>
+    <brandcode>12</brandcode>
+    <productCategory>Shirts</productCategory>
+    <productSubcategory>Casual Shirts</productSubcategory>
+    <gender>Male</gender>
+    <ediSeason>Spring</ediSeason>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Cotton</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447651456</ean>
+    <styleNumber>16050219</styleNumber>
+    <styleOption>16050219_White</styleOption>
+    <size>S</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>TR</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>29.99</price>
+        <validInRegion>France</validInRegion>
+        <validFrom>2025-02-01T00:00:00.000Z</validFrom>
+        <validUntil>2025-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>10.75</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-02-01T00:00:00.000Z</validFrom>
+        <validUntil>2025-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-04-01T06:00:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2025-01-10T08:45:00.000Z</createdOn>
+      <lastUpdated>2025-10-30T11:22:45.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>in_progress</enrichmentStatus>
+    </styleLifeCycle>
+    <color>White</color>
+    <brandName>Echo Wear</brandName>
+    <brandcode>5</brandcode>
+    <productCategory>Tops</productCategory>
+    <productSubcategory>T-Shirts</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>95% Polyester, 5% Elastane</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447652789</ean>
+    <styleNumber>16050220</styleNumber>
+    <styleOption>16050220_Blue</styleOption>
+    <size>XL</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>BD</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>59.99</price>
+        <validInRegion>Belgium</validInRegion>
+        <validFrom>2024-12-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>US Dollar</priceCurrency>
+        <price>75.0</price>
+        <validInRegion>USA</validInRegion>
+        <validFrom>2024-12-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>22.5</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-12-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-02-20T09:00:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-06-15T10:20:00.000Z</createdOn>
+      <lastUpdated>2025-10-25T14:30:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Blue</color>
+    <brandName>Urban Threads</brandName>
+    <brandcode>3</brandcode>
+    <productCategory>Jeans</productCategory>
+    <productSubcategory>Slim Jeans</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>99% Cotton, 1% Elastane</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447653012</ean>
+    <styleNumber>16050221</styleNumber>
+    <styleOption>16050221_Grey</styleOption>
+    <size>M</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>PT</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>89.99</price>
+        <validInRegion>Spain</validInRegion>
+        <validFrom>2024-11-15T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>35.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-11-15T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-01T07:30:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-08-22T11:15:00.000Z</createdOn>
+      <lastUpdated>2025-10-29T16:45:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Grey</color>
+    <brandName>Zenith Wear</brandName>
+    <brandcode>15</brandcode>
+    <productCategory>Knitwear</productCategory>
+    <productSubcategory>Cardigans</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>50% Wool, 50% Acrylic</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447654345</ean>
+    <styleNumber>16050222</styleNumber>
+    <styleOption>16050222_Red</styleOption>
+    <size>S</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>CN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>34.99</price>
+        <validInRegion>Netherlands</validInRegion>
+        <validFrom>2025-01-20T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>13.5</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-01-20T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-10T08:15:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-09-05T09:30:00.000Z</createdOn>
+      <lastUpdated>2025-10-31T10:20:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Red</color>
+    <brandName>Luxe Line</brandName>
+    <brandcode>7</brandcode>
+    <productCategory>Dresses</productCategory>
+    <productSubcategory>Party Dresses</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Polyester</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447655678</ean>
+    <styleNumber>16050223</styleNumber>
+    <styleOption>16050223_Black</styleOption>
+    <size>XXL</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>VN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>119.99</price>
+        <validInRegion>Denmark</validInRegion>
+        <validFrom>2024-10-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>48.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-10-01T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-01-15T06:00:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-07-10T13:40:00.000Z</createdOn>
+      <lastUpdated>2025-11-01T08:50:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Black</color>
+    <brandName>Fusion Wear</brandName>
+    <brandcode>12</brandcode>
+    <productCategory>Jackets</productCategory>
+    <productSubcategory>Bomber Jackets</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Polyester</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447656901</ean>
+    <styleNumber>16050224</styleNumber>
+    <styleOption>16050224_Green</styleOption>
+    <size>M</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>BD</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>69.99</price>
+        <validInRegion>Sweden</validInRegion>
+        <validFrom>2024-12-10T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>28.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-12-10T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-02-25T07:45:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-05-18T14:25:00.000Z</createdOn>
+      <lastUpdated>2025-10-27T12:15:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Green</color>
+    <brandName>Metro Mode</brandName>
+    <brandcode>8</brandcode>
+    <productCategory>Pants</productCategory>
+    <productSubcategory>Chinos</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>97% Cotton, 3% Elastane</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447657234</ean>
+    <styleNumber>16050225</styleNumber>
+    <styleOption>16050225_Pink</styleOption>
+    <size>L</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>TR</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>79.99</price>
+        <validInRegion>Italy</validInRegion>
+        <validFrom>2025-02-05T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>32.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-02-05T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-20T09:30:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-10-02T10:50:00.000Z</createdOn>
+      <lastUpdated>2025-11-02T07:30:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Pink</color>
+    <brandName>Echo Wear</brandName>
+    <brandcode>5</brandcode>
+    <productCategory>Blazers</productCategory>
+    <productSubcategory>Casual Blazers</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>95% Polyester, 5% Elastane</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447658567</ean>
+    <styleNumber>16050226</styleNumber>
+    <styleOption>16050226_Brown</styleOption>
+    <size>XS</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>IN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>49.99</price>
+        <validInRegion>Poland</validInRegion>
+        <validFrom>2024-11-25T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>20.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-11-25T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-02-28T10:00:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-04-12T15:30:00.000Z</createdOn>
+      <lastUpdated>2025-10-26T09:40:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Brown</color>
+    <brandName>Stellar Apparel</brandName>
+    <brandcode>9</brandcode>
+    <productCategory>Accessories</productCategory>
+    <productSubcategory>Bags</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Leather</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447659890</ean>
+    <styleNumber>16050227</styleNumber>
+    <styleOption>16050227_Navy</styleOption>
+    <size>L</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>BD</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>39.99</price>
+        <validInRegion>Norway</validInRegion>
+        <validFrom>2025-01-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>16.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-01-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-04-05T08:20:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2025-01-05T11:10:00.000Z</createdOn>
+      <lastUpdated>2025-11-03T13:25:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>in_progress</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Navy</color>
+    <brandName>Horizon Fashion</brandName>
+    <brandcode>14</brandcode>
+    <productCategory>Shorts</productCategory>
+    <productSubcategory>Denim Shorts</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Cotton</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447660223</ean>
+    <styleNumber>16050228</styleNumber>
+    <styleOption>16050228_White</styleOption>
+    <size>M</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>CN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>19.99</price>
+        <validInRegion>Finland</validInRegion>
+        <validFrom>2024-12-20T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>8.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-12-20T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-25T07:00:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-12-01T08:20:00.000Z</createdOn>
+      <lastUpdated>2025-11-01T14:50:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>White</color>
+    <brandName>Prime Cloth</brandName>
+    <brandcode>11</brandcode>
+    <productCategory>T-Shirts</productCategory>
+    <productSubcategory>Basic Tees</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Organic Cotton</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447661556</ean>
+    <styleNumber>16050229</styleNumber>
+    <styleOption>16050229_Beige</styleOption>
+    <size>S</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>TR</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>44.99</price>
+        <validInRegion>Switzerland</validInRegion>
+        <validFrom>2025-02-10T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>18.5</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-02-10T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-18T09:45:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-09-20T12:35:00.000Z</createdOn>
+      <lastUpdated>2025-10-29T11:05:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Beige</color>
+    <brandName>Nova Style</brandName>
+    <brandcode>4</brandcode>
+    <productCategory>Skirts</productCategory>
+    <productSubcategory>Midi Skirts</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Polyester</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447662889</ean>
+    <styleNumber>16050230</styleNumber>
+    <styleOption>16050230_Black</styleOption>
+    <size>XL</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>BD</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>54.99</price>
+        <validInRegion>Czech Republic</validInRegion>
+        <validFrom>2024-11-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>22.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-11-30T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-02-18T08:30:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-07-25T09:45:00.000Z</createdOn>
+      <lastUpdated>2025-10-30T15:20:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Black</color>
+    <brandName>Apex Fashion</brandName>
+    <brandcode>6</brandcode>
+    <productCategory>Jeans</productCategory>
+    <productSubcategory>High Waist Jeans</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>79% Cotton, 20% Recycled Cotton, 1% Elastane</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447663112</ean>
+    <styleNumber>16050231</styleNumber>
+    <styleOption>16050231_Grey</styleOption>
+    <size>M</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>CN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>59.99</price>
+        <validInRegion>Romania</validInRegion>
+        <validFrom>2024-12-15T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>24.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-12-15T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-05T10:15:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-08-30T13:20:00.000Z</createdOn>
+      <lastUpdated>2025-11-02T08:55:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Grey</color>
+    <brandName>Quantum Style</brandName>
+    <brandcode>13</brandcode>
+    <productCategory>Hoodies</productCategory>
+    <productSubcategory>Zip Hoodies</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>80% Cotton, 20% Polyester</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447664445</ean>
+    <styleNumber>16050232</styleNumber>
+    <styleOption>16050232_Burgundy</styleOption>
+    <size>L</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>PT</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>99.99</price>
+        <validInRegion>Hungary</validInRegion>
+        <validFrom>2025-01-10T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>40.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-01-10T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-28T11:20:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-10-15T16:10:00.000Z</createdOn>
+      <lastUpdated>2025-11-03T09:40:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Burgundy</color>
+    <brandName>Velocity Apparel</brandName>
+    <brandcode>16</brandcode>
+    <productCategory>Coats</productCategory>
+    <productSubcategory>Wool Coats</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>60% Wool, 40% Polyester</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447665778</ean>
+    <styleNumber>16050233</styleNumber>
+    <styleOption>16050233_Olive</styleOption>
+    <size>XL</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>VN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>74.99</price>
+        <validInRegion>Bulgaria</validInRegion>
+        <validFrom>2025-02-15T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>30.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-02-15T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-04-10T14:30:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2025-01-15T10:00:00.000Z</createdOn>
+      <lastUpdated>2025-11-04T12:15:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>in_progress</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Olive</color>
+    <brandName>Fusion Wear</brandName>
+    <brandcode>12</brandcode>
+    <productCategory>Pants</productCategory>
+    <productSubcategory>Cargo Pants</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Cotton</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447666001</ean>
+    <styleNumber>16050234</styleNumber>
+    <styleOption>16050234_Cream</styleOption>
+    <size>M</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>TR</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>64.99</price>
+        <validInRegion>Austria</validInRegion>
+        <validFrom>2025-01-25T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>26.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-01-25T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-30T08:45:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-11-05T11:30:00.000Z</createdOn>
+      <lastUpdated>2025-11-02T14:20:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Cream</color>
+    <brandName>Metro Mode</brandName>
+    <brandcode>8</brandcode>
+    <productCategory>Sweaters</productCategory>
+    <productSubcategory>Pullover Sweaters</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>50% Merino Wool, 50% Acrylic</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447667334</ean>
+    <styleNumber>16050235</styleNumber>
+    <styleOption>16050235_Charcoal</styleOption>
+    <size>XXL</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>BD</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>84.99</price>
+        <validInRegion>Ireland</validInRegion>
+        <validFrom>2024-12-05T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>34.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2024-12-05T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-02-22T09:10:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-06-20T14:45:00.000Z</createdOn>
+      <lastUpdated>2025-10-28T10:30:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Charcoal</color>
+    <brandName>Prime Cloth</brandName>
+    <brandcode>11</brandcode>
+    <productCategory>Jackets</productCategory>
+    <productSubcategory>Parka Jackets</productSubcategory>
+    <gender>Male</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>65% Polyester, 35% Cotton</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447668667</ean>
+    <styleNumber>16050236</styleNumber>
+    <styleOption>16050236_Mustard</styleOption>
+    <size>S</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>IN</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>27.99</price>
+        <validInRegion>Portugal</validInRegion>
+        <validFrom>2025-02-20T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>11.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-02-20T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-04-15T07:25:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2025-01-20T09:15:00.000Z</createdOn>
+      <lastUpdated>2025-11-04T16:50:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>in_progress</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Mustard</color>
+    <brandName>Stellar Apparel</brandName>
+    <brandcode>9</brandcode>
+    <productCategory>Accessories</productCategory>
+    <productSubcategory>Scarves</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Viscose</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+  <product>
+    <ean>5713447669990</ean>
+    <styleNumber>16050237</styleNumber>
+    <styleOption>16050237_Denim</styleOption>
+    <size>M</size>
+    <countryOfOrigin>
+      <entry>
+        <language>English</language>
+        <value>BD</value>
+      </entry>
+    </countryOfOrigin>
+    <itemSellingPrices>
+      <price>
+        <priceType>EDI Retail Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>79.99</price>
+        <validInRegion>Belgium</validInRegion>
+        <validFrom>2025-01-05T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemSellingPrices>
+    <itemGrossPrices>
+      <price>
+        <priceType>EDI Gross Price</priceType>
+        <priceCurrency>Euro</priceCurrency>
+        <price>32.0</price>
+        <validInRegion>Worldwide</validInRegion>
+        <validFrom>2025-01-05T00:00:00.000Z</validFrom>
+        <validUntil>9999-12-31T00:00:00.000Z</validUntil>
+      </price>
+    </itemGrossPrices>
+    <b2bReadinessDate>2025-03-15T10:40:00.000Z</b2bReadinessDate>
+    <styleLifeCycle>
+      <createdOn>2024-09-10T13:50:00.000Z</createdOn>
+      <lastUpdated>2025-11-01T11:25:00.000Z</lastUpdated>
+      <articleStatus>created</articleStatus>
+      <enrichmentStatus>ready</enrichmentStatus>
+    </styleLifeCycle>
+    <color>Denim</color>
+    <brandName>Echo Wear</brandName>
+    <brandcode>5</brandcode>
+    <productCategory>Jackets</productCategory>
+    <productSubcategory>Denim Jackets</productSubcategory>
+    <gender>Female</gender>
+    <fabricCompositions>
+      <composition>
+        <language>English</language>
+        <value>100% Cotton</value>
+      </composition>
+    </fabricCompositions>
+  </product>
+</products>

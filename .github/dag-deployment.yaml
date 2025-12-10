@@ -1,0 +1,113 @@
+on:
+  # Trigger the workflow when a pull request review is submitted
+  pull_request_review:
+    types: [submitted]
+    paths:
+      - 'dags/**'          # Trigger when files in 'dags/' are updated
+      - 'requirements.txt' # Trigger when requirements.txt is updated
+      - 'src/**'           # Trigger when files in 'src/' are updated
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    outputs:
+      changes_detected: ${{ steps.check_diff.outputs.changes_detected }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Check for changes in DAGs, Requirements, or Source files
+        id: check_diff
+        run: |
+          if git diff --quiet HEAD^ HEAD -- 'dags/**' 'requirements.txt' 'src/**' ; then
+            echo "No changes in 'dags', 'requirements.txt', or 'src' directories."
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in 'dags', 'requirements.txt', or 'src' directories."
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+          fi
+
+  sync-dags-to-s3:
+    runs-on: ubuntu-latest
+    needs: diff
+    if: ${{ fromJSON(needs.diff.outputs.changes_detected) }}
+    environment: "data-engineering-prod"
+    permissions:
+      contents: read  # Required for accessing repository content
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: Sync DAGs and Requirements to S3
+        run: |
+          S3_BUCKET="s3://data-engineering-product-bucket"
+          S3_DAG_DIR="${S3_BUCKET}/dags"
+          S3_REQUIREMENTS_DIR="${S3_BUCKET}/requirements"
+          S3_SRC_DIR="${S3_BUCKET}/src"
+          S3_HASH_DIR="${S3_BUCKET}/.checksums"
+          
+          # Syncing DAG files from /dags folder
+          echo "Processing DAGs files..."
+          for file in $(find ./dags -type f -name '*.py'); do
+            RELATIVE_PATH=${file#./dags/}  # Remove './dags/' prefix
+            S3_PATH="${S3_DAG_DIR}/${RELATIVE_PATH}"
+            HASH_FILE="${S3_HASH_DIR}/dag_${RELATIVE_PATH//\//_}.hash"
+            # Calculate the current file hash
+            CURRENT_HASH=$(md5sum "$file" | awk '{ print $1 }')
+            # Download the previous hash from S3 if it exists
+            PREVIOUS_HASH=$(aws s3 cp "$HASH_FILE" - 2>/dev/null | grep -oP '^[^\n]+' || echo "")
+            # If hash has changed, upload the file to S3 and update the hash
+            if [ "$CURRENT_HASH" != "$PREVIOUS_HASH" ]; then
+              echo "File $file has changed. Uploading to $S3_PATH..."
+              aws s3 cp "$file" "$S3_PATH" --region us-east-1
+              echo "$CURRENT_HASH" | aws s3 cp - "$HASH_FILE" --region us-east-1
+            else
+              echo "File $file has not changed. Skipping."
+            fi
+          done
+          
+          # Syncing requirements.txt from root folder
+          echo "Processing requirements.txt..."
+          REQUIREMENTS_FILE="./requirements.txt"
+          if [ -f "$REQUIREMENTS_FILE" ]; then
+            S3_PATH="${S3_REQUIREMENTS_DIR}/requirements.txt"
+            HASH_FILE="${S3_HASH_DIR}/requirements.hash"
+            CURRENT_HASH=$(md5sum "$REQUIREMENTS_FILE" | awk '{ print $1 }')
+            # Download the previous hash from S3 if it exists
+            PREVIOUS_HASH=$(aws s3 cp "$HASH_FILE" - 2>/dev/null | grep -oP '^[^\n]+' || echo "")
+            if [ "$CURRENT_HASH" != "$PREVIOUS_HASH" ]; then
+              echo "File $REQUIREMENTS_FILE has changed. Uploading to $S3_PATH..."
+              aws s3 cp "$REQUIREMENTS_FILE" "$S3_PATH" --region us-east-1
+              echo "$CURRENT_HASH" | aws s3 cp - "$HASH_FILE" --region us-east-1
+            else
+              echo "File $REQUIREMENTS_FILE has not changed. Skipping."
+            fi
+          else
+            echo "File $REQUIREMENTS_FILE not found. Skipping."
+          fi
+          
+          # Syncing source files from /src folder
+          echo "Processing source files..."
+          for file in $(find ./src -type f -name '*.py'); do
+            RELATIVE_PATH=${file#./src/}  # Remove './src/' prefix
+            S3_PATH="${S3_SRC_DIR}/${RELATIVE_PATH}"
+            HASH_FILE="${S3_HASH_DIR}/src_${RELATIVE_PATH//\//_}.hash"
+            # Calculate the current file hash
+            CURRENT_HASH=$(md5sum "$file" | awk '{ print $1 }')
+            # Download the previous hash from S3 if it exists
+            PREVIOUS_HASH=$(aws s3 cp "$HASH_FILE" - 2>/dev/null | grep -oP '^[^\n]+' || echo "")
+            # If hash has changed, upload the file to S3 and update the hash
+            if [ "$CURRENT_HASH" != "$PREVIOUS_HASH" ]; then
+              echo "File $file has changed. Uploading to $S3_PATH..."
+              aws s3 cp "$file" "$S3_PATH" --region us-east-1
+              echo "$CURRENT_HASH" | aws s3 cp - "$HASH_FILE" --region us-east-1
+            else
+              echo "File $file has not changed. Skipping."
+            fi
+          done

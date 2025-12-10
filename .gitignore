@@ -1,0 +1,11 @@
+.terraform/
+aws/*.tfstate
+aws/*.tfstate.backup    
+
+# Temp files
+.DS_Store
+
+.venv/
+__pycache__/
+*.pyc
+.env    

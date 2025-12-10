@@ -1,0 +1,33 @@
+# AWS SDK
+boto3>=1.34.0  # AWS SDK for Python, used for S3 operations
+
+# Data Processing
+pandas>=1.5.0  # Data manipulation and analysis library
+
+# XML Processing
+lxml>=4.9.0    # XML and HTML processing library
+xmltodict>=0.13.0  # XML to Python dictionary conversion
+dicttoxml>=1.7.16  # Python dictionary to XML conversion
+
+# HTTP and API
+requests>=2.31.0  # HTTP library for making requests
+
+# Configuration
+python-dotenv>=1.0.0  # Load environment variables from .env files
+
+# Messaging
+kafka-python>=2.0.2  # Kafka client for Python
+
+# Testing
+pytest>=7.4.0  # Testing framework
+pytest-mock>=3.11.0  # Mock objects for pytest
+moto>=4.2.0  # AWS service mocking library for testing
+
+# Package Management
+setuptools>=68.0.0  # Needed for pkg_resources module
+
+
+pyarrow>=10.0.1
+confluent-kafka>=2.3.0
+# apache-airflow-providers-amazon>=8.0.0
+# apache-airflow-providers-http>=4.0.0

@@ -1,0 +1,429 @@
+[
+  {
+    "ean": "5713447649590",
+    "styleNumber": "16050217",
+    "styleOption": "16050217_Black",
+    "size": "M",
+    "countryOfOrigin": [{"language": "English", "value": "BD"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 39.99, "validInRegion": "Austria", "validFrom": "1899-12-30T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"},
+      {"priceType": "EDI Retail Price", "priceCurrency": "US Dollar", "price": 55.0, "validInRegion": "USA", "validFrom": "1899-12-30T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 14.28, "validInRegion": "Worldwide", "validFrom": "1899-12-30T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-02-12T08:47:36.000Z",
+    "styleLifeCycle": {"createdOn": "2018-09-13T20:34:00.000Z", "lastUpdated": "2025-10-03T15:22:07.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Black",
+    "brandName": "Metro Mode",
+    "brandcode": "8",
+    "subbrandName": "Metro Mode Women",
+    "productCategory": "Knit",
+    "productSubcategory": "Pullover",
+    "gender": "Female",
+    "ediSeason": "Summer",
+    "ediStyleName": "SLFWILLE SS KNIT O-NECK B",
+    "fabricCompositions": [{"language": "English", "value": "75% Viscose, 25% Nylon"}]
+  },
+  {
+    "ean": "5713447650123",
+    "styleNumber": "16050218",
+    "styleOption": "16050218_Navy",
+    "size": "L",
+    "countryOfOrigin": [{"language": "English", "value": "CN"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 49.99, "validInRegion": "Germany", "validFrom": "2025-01-01T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"},
+      {"priceType": "EDI Retail Price", "priceCurrency": "Pound Sterling", "price": 45.0, "validInRegion": "Great Britain", "validFrom": "2025-01-01T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 18.50, "validInRegion": "Worldwide", "validFrom": "2025-01-01T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-15T10:30:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-11-20T14:22:00.000Z", "lastUpdated": "2025-10-28T09:15:30.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Navy",
+    "brandName": "Fusion Wear",
+    "brandcode": "12",
+    "productCategory": "Shirts",
+    "productSubcategory": "Casual Shirts",
+    "gender": "Male",
+    "ediSeason": "Spring",
+    "fabricCompositions": [{"language": "English", "value": "100% Cotton"}]
+  },
+  {
+    "ean": "5713447651456",
+    "styleNumber": "16050219",
+    "styleOption": "16050219_White",
+    "size": "S",
+    "countryOfOrigin": [{"language": "English", "value": "TR"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 29.99, "validInRegion": "France", "validFrom": "2025-02-01T00:00:00.000Z", "validUntil": "2025-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 10.75, "validInRegion": "Worldwide", "validFrom": "2025-02-01T00:00:00.000Z", "validUntil": "2025-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-04-01T06:00:00.000Z",
+    "styleLifeCycle": {"createdOn": "2025-01-10T08:45:00.000Z", "lastUpdated": "2025-10-30T11:22:45.000Z", "articleStatus": "created", "enrichmentStatus": "in_progress"},
+    "color": "White",
+    "brandName": "Echo Wear",
+    "brandcode": "5",
+    "productCategory": "Tops",
+    "productSubcategory": "T-Shirts",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "95% Polyester, 5% Elastane"}]
+  },
+  {
+    "ean": "5713447652789",
+    "styleNumber": "16050220",
+    "styleOption": "16050220_Blue",
+    "size": "XL",
+    "countryOfOrigin": [{"language": "English", "value": "BD"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 59.99, "validInRegion": "Belgium", "validFrom": "2024-12-01T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"},
+      {"priceType": "EDI Retail Price", "priceCurrency": "US Dollar", "price": 75.0, "validInRegion": "USA", "validFrom": "2024-12-01T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 22.50, "validInRegion": "Worldwide", "validFrom": "2024-12-01T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-02-20T09:00:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-06-15T10:20:00.000Z", "lastUpdated": "2025-10-25T14:30:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Blue",
+    "brandName": "Urban Threads",
+    "brandcode": "3",
+    "productCategory": "Jeans",
+    "productSubcategory": "Slim Jeans",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "99% Cotton, 1% Elastane"}]
+  },
+  {
+    "ean": "5713447653012",
+    "styleNumber": "16050221",
+    "styleOption": "16050221_Grey",
+    "size": "M",
+    "countryOfOrigin": [{"language": "English", "value": "PT"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 89.99, "validInRegion": "Spain", "validFrom": "2024-11-15T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 35.00, "validInRegion": "Worldwide", "validFrom": "2024-11-15T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-01T07:30:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-08-22T11:15:00.000Z", "lastUpdated": "2025-10-29T16:45:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Grey",
+    "brandName": "Zenith Wear",
+    "brandcode": "15",
+    "productCategory": "Knitwear",
+    "productSubcategory": "Cardigans",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "50% Wool, 50% Acrylic"}]
+  },
+  {
+    "ean": "5713447654345",
+    "styleNumber": "16050222",
+    "styleOption": "16050222_Red",
+    "size": "S",
+    "countryOfOrigin": [{"language": "English", "value": "CN"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 34.99, "validInRegion": "Netherlands", "validFrom": "2025-01-20T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 13.50, "validInRegion": "Worldwide", "validFrom": "2025-01-20T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-10T08:15:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-09-05T09:30:00.000Z", "lastUpdated": "2025-10-31T10:20:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Red",
+    "brandName": "Luxe Line",
+    "brandcode": "7",
+    "productCategory": "Dresses",
+    "productSubcategory": "Party Dresses",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "100% Polyester"}]
+  },
+  {
+    "ean": "5713447655678",
+    "styleNumber": "16050223",
+    "styleOption": "16050223_Black",
+    "size": "XXL",
+    "countryOfOrigin": [{"language": "English", "value": "VN"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 119.99, "validInRegion": "Denmark", "validFrom": "2024-10-01T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 48.00, "validInRegion": "Worldwide", "validFrom": "2024-10-01T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-01-15T06:00:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-07-10T13:40:00.000Z", "lastUpdated": "2025-11-01T08:50:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Black",
+    "brandName": "Fusion Wear",
+    "brandcode": "12",
+    "productCategory": "Jackets",
+    "productSubcategory": "Bomber Jackets",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "100% Polyester"}]
+  },
+  {
+    "ean": "5713447656901",
+    "styleNumber": "16050224",
+    "styleOption": "16050224_Green",
+    "size": "M",
+    "countryOfOrigin": [{"language": "English", "value": "BD"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 69.99, "validInRegion": "Sweden", "validFrom": "2024-12-10T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 28.00, "validInRegion": "Worldwide", "validFrom": "2024-12-10T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-02-25T07:45:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-05-18T14:25:00.000Z", "lastUpdated": "2025-10-27T12:15:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Green",
+    "brandName": "Metro Mode",
+    "brandcode": "8",
+    "productCategory": "Pants",
+    "productSubcategory": "Chinos",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "97% Cotton, 3% Elastane"}]
+  },
+  {
+    "ean": "5713447657234",
+    "styleNumber": "16050225",
+    "styleOption": "16050225_Pink",
+    "size": "L",
+    "countryOfOrigin": [{"language": "English", "value": "TR"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 79.99, "validInRegion": "Italy", "validFrom": "2025-02-05T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 32.00, "validInRegion": "Worldwide", "validFrom": "2025-02-05T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-20T09:30:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-10-02T10:50:00.000Z", "lastUpdated": "2025-11-02T07:30:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Pink",
+    "brandName": "Echo Wear",
+    "brandcode": "5",
+    "productCategory": "Blazers",
+    "productSubcategory": "Casual Blazers",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "95% Polyester, 5% Elastane"}]
+  },
+  {
+    "ean": "5713447658567",
+    "styleNumber": "16050226",
+    "styleOption": "16050226_Brown",
+    "size": "XS",
+    "countryOfOrigin": [{"language": "English", "value": "IN"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 49.99, "validInRegion": "Poland", "validFrom": "2024-11-25T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 20.00, "validInRegion": "Worldwide", "validFrom": "2024-11-25T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-02-28T10:00:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-04-12T15:30:00.000Z", "lastUpdated": "2025-10-26T09:40:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Brown",
+    "brandName": "Stellar Apparel",
+    "brandcode": "9",
+    "productCategory": "Accessories",
+    "productSubcategory": "Bags",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "100% Leather"}]
+  },
+  {
+    "ean": "5713447659890",
+    "styleNumber": "16050227",
+    "styleOption": "16050227_Navy",
+    "size": "L",
+    "countryOfOrigin": [{"language": "English", "value": "BD"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 39.99, "validInRegion": "Norway", "validFrom": "2025-01-30T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 16.00, "validInRegion": "Worldwide", "validFrom": "2025-01-30T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-04-05T08:20:00.000Z",
+    "styleLifeCycle": {"createdOn": "2025-01-05T11:10:00.000Z", "lastUpdated": "2025-11-03T13:25:00.000Z", "articleStatus": "created", "enrichmentStatus": "in_progress"},
+    "color": "Navy",
+    "brandName": "Horizon Fashion",
+    "brandcode": "14",
+    "productCategory": "Shorts",
+    "productSubcategory": "Denim Shorts",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "100% Cotton"}]
+  },
+  {
+    "ean": "5713447660223",
+    "styleNumber": "16050228",
+    "styleOption": "16050228_White",
+    "size": "M",
+    "countryOfOrigin": [{"language": "English", "value": "CN"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 19.99, "validInRegion": "Finland", "validFrom": "2024-12-20T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 8.00, "validInRegion": "Worldwide", "validFrom": "2024-12-20T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-25T07:00:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-12-01T08:20:00.000Z", "lastUpdated": "2025-11-01T14:50:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "White",
+    "brandName": "Prime Cloth",
+    "brandcode": "11",
+    "productCategory": "T-Shirts",
+    "productSubcategory": "Basic Tees",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "100% Organic Cotton"}]
+  },
+  {
+    "ean": "5713447661556",
+    "styleNumber": "16050229",
+    "styleOption": "16050229_Beige",
+    "size": "S",
+    "countryOfOrigin": [{"language": "English", "value": "TR"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 44.99, "validInRegion": "Switzerland", "validFrom": "2025-02-10T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 18.50, "validInRegion": "Worldwide", "validFrom": "2025-02-10T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-18T09:45:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-09-20T12:35:00.000Z", "lastUpdated": "2025-10-29T11:05:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Beige",
+    "brandName": "Nova Style",
+    "brandcode": "4",
+    "productCategory": "Skirts",
+    "productSubcategory": "Midi Skirts",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "100% Polyester"}]
+  },
+  {
+    "ean": "5713447662889",
+    "styleNumber": "16050230",
+    "styleOption": "16050230_Black",
+    "size": "XL",
+    "countryOfOrigin": [{"language": "English", "value": "BD"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 54.99, "validInRegion": "Czech Republic", "validFrom": "2024-11-30T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 22.00, "validInRegion": "Worldwide", "validFrom": "2024-11-30T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-02-18T08:30:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-07-25T09:45:00.000Z", "lastUpdated": "2025-10-30T15:20:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Black",
+    "brandName": "Apex Fashion",
+    "brandcode": "6",
+    "productCategory": "Jeans",
+    "productSubcategory": "High Waist Jeans",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "79% Cotton, 20% Recycled Cotton, 1% Elastane"}]
+  },
+  {
+    "ean": "5713447663112",
+    "styleNumber": "16050231",
+    "styleOption": "16050231_Grey",
+    "size": "M",
+    "countryOfOrigin": [{"language": "English", "value": "CN"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 59.99, "validInRegion": "Romania", "validFrom": "2024-12-15T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 24.00, "validInRegion": "Worldwide", "validFrom": "2024-12-15T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-05T10:15:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-08-30T13:20:00.000Z", "lastUpdated": "2025-11-02T08:55:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Grey",
+    "brandName": "Quantum Style",
+    "brandcode": "13",
+    "productCategory": "Hoodies",
+    "productSubcategory": "Zip Hoodies",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "80% Cotton, 20% Polyester"}]
+  },
+  {
+    "ean": "5713447664445",
+    "styleNumber": "16050232",
+    "styleOption": "16050232_Burgundy",
+    "size": "L",
+    "countryOfOrigin": [{"language": "English", "value": "PT"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 99.99, "validInRegion": "Hungary", "validFrom": "2025-01-10T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 40.00, "validInRegion": "Worldwide", "validFrom": "2025-01-10T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-28T11:20:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-10-15T16:10:00.000Z", "lastUpdated": "2025-11-03T09:40:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Burgundy",
+    "brandName": "Velocity Apparel",
+    "brandcode": "16",
+    "productCategory": "Coats",
+    "productSubcategory": "Wool Coats",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "60% Wool, 40% Polyester"}]
+  },
+  {
+    "ean": "5713447665778",
+    "styleNumber": "16050233",
+    "styleOption": "16050233_Olive",
+    "size": "XL",
+    "countryOfOrigin": [{"language": "English", "value": "VN"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 74.99, "validInRegion": "Bulgaria", "validFrom": "2025-02-15T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 30.00, "validInRegion": "Worldwide", "validFrom": "2025-02-15T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-04-10T14:30:00.000Z",
+    "styleLifeCycle": {"createdOn": "2025-01-15T10:00:00.000Z", "lastUpdated": "2025-11-04T12:15:00.000Z", "articleStatus": "created", "enrichmentStatus": "in_progress"},
+    "color": "Olive",
+    "brandName": "Fusion Wear",
+    "brandcode": "12",
+    "productCategory": "Pants",
+    "productSubcategory": "Cargo Pants",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "100% Cotton"}]
+  },
+  {
+    "ean": "5713447666001",
+    "styleNumber": "16050234",
+    "styleOption": "16050234_Cream",
+    "size": "M",
+    "countryOfOrigin": [{"language": "English", "value": "TR"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 64.99, "validInRegion": "Austria", "validFrom": "2025-01-25T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 26.00, "validInRegion": "Worldwide", "validFrom": "2025-01-25T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-30T08:45:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-11-05T11:30:00.000Z", "lastUpdated": "2025-11-02T14:20:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Cream",
+    "brandName": "Metro Mode",
+    "brandcode": "8",
+    "productCategory": "Sweaters",
+    "productSubcategory": "Pullover Sweaters",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "50% Merino Wool, 50% Acrylic"}]
+  },
+  {
+    "ean": "5713447667334",
+    "styleNumber": "16050235",
+    "styleOption": "16050235_Charcoal",
+    "size": "XXL",
+    "countryOfOrigin": [{"language": "English", "value": "BD"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 84.99, "validInRegion": "Ireland", "validFrom": "2024-12-05T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 34.00, "validInRegion": "Worldwide", "validFrom": "2024-12-05T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-02-22T09:10:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-06-20T14:45:00.000Z", "lastUpdated": "2025-10-28T10:30:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Charcoal",
+    "brandName": "Prime Cloth",
+    "brandcode": "11",
+    "productCategory": "Jackets",
+    "productSubcategory": "Parka Jackets",
+    "gender": "Male",
+    "fabricCompositions": [{"language": "English", "value": "65% Polyester, 35% Cotton"}]
+  },
+  {
+    "ean": "5713447668667",
+    "styleNumber": "16050236",
+    "styleOption": "16050236_Mustard",
+    "size": "S",
+    "countryOfOrigin": [{"language": "English", "value": "IN"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 27.99, "validInRegion": "Portugal", "validFrom": "2025-02-20T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 11.00, "validInRegion": "Worldwide", "validFrom": "2025-02-20T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-04-15T07:25:00.000Z",
+    "styleLifeCycle": {"createdOn": "2025-01-20T09:15:00.000Z", "lastUpdated": "2025-11-04T16:50:00.000Z", "articleStatus": "created", "enrichmentStatus": "in_progress"},
+    "color": "Mustard",
+    "brandName": "Stellar Apparel",
+    "brandcode": "9",
+    "productCategory": "Accessories",
+    "productSubcategory": "Scarves",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "100% Viscose"}]
+  },
+  {
+    "ean": "5713447669990",
+    "styleNumber": "16050237",
+    "styleOption": "16050237_Denim",
+    "size": "M",
+    "countryOfOrigin": [{"language": "English", "value": "BD"}],
+    "itemSellingPrices": [
+      {"priceType": "EDI Retail Price", "priceCurrency": "Euro", "price": 79.99, "validInRegion": "Belgium", "validFrom": "2025-01-05T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}
+    ],
+    "itemGrossPrices": [{"priceType": "EDI Gross Price", "priceCurrency": "Euro", "price": 32.00, "validInRegion": "Worldwide", "validFrom": "2025-01-05T00:00:00.000Z", "validUntil": "9999-12-31T00:00:00.000Z"}],
+    "b2bReadinessDate": "2025-03-15T10:40:00.000Z",
+    "styleLifeCycle": {"createdOn": "2024-09-10T13:50:00.000Z", "lastUpdated": "2025-11-01T11:25:00.000Z", "articleStatus": "created", "enrichmentStatus": "ready"},
+    "color": "Denim",
+    "brandName": "Echo Wear",
+    "brandcode": "5",
+    "productCategory": "Jackets",
+    "productSubcategory": "Denim Jackets",
+    "gender": "Female",
+    "fabricCompositions": [{"language": "English", "value": "100% Cotton"}]
+  }
+]
